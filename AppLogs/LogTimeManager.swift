@@ -25,6 +25,7 @@ open class LogTimeManager {
           switch status {
           case  true:
             Logger.sharedInstance.deleteLogsFromDisk()
+            
           case false:
             break
           }
