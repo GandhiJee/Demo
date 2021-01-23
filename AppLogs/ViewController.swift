@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     print(Logger.sharedInstance.deviceDetails)
     Logger.sharedInstance.DebugLogs(className: "ViewController", methodName: "viewDidLoad", debugLogs: "view did load logs here")
     let savedLogs = Logger.sharedInstance.readLogFromDisk()
-    
+    print(savedLogs)
+    print(savedLogs)
     print(savedLogs)
   }
 
