@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     let savedLogs = Logger.sharedInstance.readLogFromDisk()
     print(savedLogs)
     print(savedLogs)
-    print(savedLogs)
   }
 
   override func didReceiveMemoryWarning() {
